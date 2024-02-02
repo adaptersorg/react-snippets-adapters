@@ -1,6 +1,8 @@
 # Reactjs
 
-## VS Code Reactjs snippets made by adapters
+## react-code-snippets-adapters
+
+[Market Place](https://marketplace.visualstudio.com/items?itemName=adaptersorg.react-snippets-adapters)
 
 ---
 

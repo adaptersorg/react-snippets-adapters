@@ -1,21 +1,31 @@
 {
   "createReactComponentsByArrowFunction": {
-    "prefix": "ra",
+    "prefix": "r",
     "body": "import React from 'react';\n\nconst ${1:${TM_FILENAME_BASE}} = () => {\n\treturn (\n\t\t<>\n\t\t\t$0\n\t\t</>\n\t);\n};\n\nexport default ${1:${TM_FILENAME_BASE}};",
     "description": "create arrow function react components"
   },
   "createReactComponentsByCommonFunction": {
-    "prefix": "rf",
+    "prefix": "R",
     "body": "import React from 'react';\n\nexport default function ${1:${TM_FILENAME_BASE}} () {\n\treturn (\n\t\t<>\n\t\t\t$0\n\t\t</>\n\t);\n};",
     "description": "create common function react components"
   },
+  "createReactComponentsByArrowFunctionWithStyledComponents": {
+    "prefix": "rs",
+    "body": "import React from 'react';\nimport * as S from './style';\n\nconst ${1:${TM_FILENAME_BASE}} = () => {\n\treturn (\n\t\t<>\n\t\t\t$0\n\t\t</>\n\t);\n};\n\nexport default ${1:${TM_FILENAME_BASE}};",
+    "description": "create arrow function react components"
+  },
+  "createReactComponentsByCommonFunctionWithStyledComponents": {
+    "prefix": "rf",
+    "body": "import React from 'react';\nimport * as S from './style';\n\nexport default function ${1:${TM_FILENAME_BASE}} () {\n\treturn (\n\t\t<>\n\t\t\t$0\n\t\t</>\n\t);\n};",
+    "description": "create common function react components"
+  },
   "createUseEffectFunction": {
-    "prefix": "useEf",
-    "body": "useEffect(() => {\n$0\n},[])",
+    "prefix": "useE",
+    "body": "useEffect(() => {\n\t$0\n},[])",
     "description": "create useEffect function"
   },
   "createUseStateFunction": {
-    "prefix": "useSt",
+    "prefix": "useS",
     "body": "const [$0, set$0] = useState();",
     "description": "create useState function"
   },
@@ -30,7 +40,7 @@
     "description": "create export common function"
   },
   "createExportDefaultAlias": {
-    "prefix": "eas",
+    "prefix": "ed",
     "body": "export { default as $0 } from './$0' ",
     "description": "create export default alias"
   }

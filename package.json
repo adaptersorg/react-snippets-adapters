@@ -1,10 +1,10 @@
 {
   "name": "react-snippets-adapters",
   "description": "Code snippets for Reactjs development in functional programming",
-  "version": "0.0.1",
-  "displayName": "Reactjs code snippets adapters",
+  "version": "0.0.2",
+  "displayName": "Reactjs code snippets by adapters",
   "publisher": "adaptersorg",
-  "icon": "images/react.png",
+  "icon": "images/adapters-react.png",
   "galleryBanner": {
     "theme": "light"
   },

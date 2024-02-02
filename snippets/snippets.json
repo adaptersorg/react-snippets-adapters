@@ -1,0 +1,37 @@
+{
+  "createReactComponentsByArrowFunction": {
+    "prefix": "ra",
+    "body": "import React from 'react';\n\nconst ${1:${TM_FILENAME_BASE}} = () => {\n\treturn (\n\t\t<>\n\t\t\t$0\n\t\t</>\n\t);\n};\n\nexport default ${1:${TM_FILENAME_BASE}};",
+    "description": "create arrow function react components"
+  },
+  "createReactComponentsByCommonFunction": {
+    "prefix": "rf",
+    "body": "import React from 'react';\n\nexport default function ${1:${TM_FILENAME_BASE}} () {\n\treturn (\n\t\t<>\n\t\t\t$0\n\t\t</>\n\t);\n};",
+    "description": "create common function react components"
+  },
+  "createUseEffectFunction": {
+    "prefix": "useEf",
+    "body": "useEffect(() => {\n$0\n},[])",
+    "description": "create useEffect function"
+  },
+  "createUseStateFunction": {
+    "prefix": "useSt",
+    "body": "const [$0, set$0] = useState();",
+    "description": "create useState function"
+  },
+  "createCommonExportByArrowFunction": {
+    "prefix": "ea",
+    "body": "export const ${1:${TM_FILENAME_BASE}} = () => {\n\t\n};",
+    "description": "create export arrow function"
+  },
+  "createCommonExportByCommonFunction": {
+    "prefix": "ef",
+    "body": "export function ${1:${TM_FILENAME_BASE}} () {\n\t\n};",
+    "description": "create export common function"
+  },
+  "createExportDefaultAlias": {
+    "prefix": "eas",
+    "body": "export { default as $0 } from './$0' ",
+    "description": "create export default alias"
+  }
+}

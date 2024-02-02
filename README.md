@@ -30,7 +30,7 @@ Below is a list of all available snippets and the triggers of each one. The **�
 | Trigger | Content                                                   |
 | ------: | --------------------------------------------------------- |
 |    `r→` | arrow function component skeleton                         |
-|    `R→` | common function component skeleton                        |
+|    `f→` | common function component skeleton                        |
 |   `rs→` | arrow function component skeleton with styled-components  |
 |   `rf→` | common function component skeleton with styled-components |
 | `useE→` | useEffect skeleton                                        |

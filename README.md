@@ -35,6 +35,9 @@ Below is a list of all available snippets and the triggers of each one. The **�
 |   `rf→` | common function component skeleton with styled-components |
 | `useE→` | useEffect skeleton                                        |
 | `useS→` | useState skeleton                                         |
+|   `ea→` | export arrow function component skeleton                  |
+|   `ef→` | export common function component skeleton                 |
+|   `ed→` | export default alias skeleton                             |
 
 [react]: https://facebook.github.io/react/
 [babelsublime]: https://github.com/babel/babel-sublime-snippets

@@ -5,7 +5,7 @@
     "description": "create arrow function react components"
   },
   "createReactComponentsByCommonFunction": {
-    "prefix": "R",
+    "prefix": "f",
     "body": "import React from 'react';\n\nexport default function ${1:${TM_FILENAME_BASE}} () {\n\treturn (\n\t\t<>\n\t\t\t$0\n\t\t</>\n\t);\n};",
     "description": "create common function react components"
   },
